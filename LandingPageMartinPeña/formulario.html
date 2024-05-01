@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body class="formulario">
+    <h1><b>Martín Peña Contacto</b></h1>
+    <br>
+
+    <form class="form" action="raul.rodriguez@proeducaglobal.com" method="post">
+        <fieldset><legend><h3>Cuestionario</h3></legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <b>Nombre:</b> <input type="text" class="invalido" name="nombre" placeholder="Indica tu nombre" minlength="3" required>
+                <br>
+                <b>Apellidos:</b> <input type="text" class="invalido" name="apellidos" placeholder="Indica tus apellidos" minlength="3" required>
+                <br>
+                <b>Correo Electrónico Trabajo</b> <input type="email" name="correo" placeholder="Indica tu correo">
+                <br>
+                <b>Correo Electrónico Empresa</b> <input type="email" name="correo" placeholder="Indica el correo de tu empresa">
+                <br>
+                <b>Telefono</b> <input type="tel" name="telefono" placeholder="Indica tu telefono movil">
+            </fieldset>
+            <fieldset>
+                <legend>Otros Datos</legend>
+                <b>Sexo </b>
+                <br><input type="radio" name="sexo" value="H">Hombre
+                <br><input type="radio" name="sexo" value="M">Mujer
+                <br><input type="radio" name="sexo" value="Otro">Otros
+                <br>
+                <b>Fecha de Nacimiento</b> <input type="date">
+                <br>
+                <b>Personaje favorito:</b>
+                <select name="combo" id="">
+                    <option value="1">Analista Datos</option>
+                    <option value="2" selected>Desarrollador Web Front End</option>
+                    <option value="3">Desarrollador Web Back End</option>
+                    <option value="4">Administrador Sistemas Informáticos</option>
+                    <option value="5">Recursos Humanos</option>
+                </select>
+                <br>
+                <b>Caja de Comentarios</b>
+                <br><textarea name="Opinion" id="" cols="70" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar">||<input type="Reset" value="Borrar"><input type="file" name="Adjuntar" accept=".pdf">
+            </fieldset>
+        </fieldset>
+    </form>
+    <div class="footer">
+        <p>&copy;Web Personal creada para el trabajo de Lenguaje De Marcas DAM</p>
+    </div>
+    <ul class="redes">
+        <li><a href="correoelectronico.html"><img src="img/134146_mail_email_icon.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/cristiano/"><img src="img/1161953_instagram_icon.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com/@MrBeast"><img src="img/317714_video_youtube_icon.png" alt=""></a></li>
+    </ul>
+</body>
+</html>

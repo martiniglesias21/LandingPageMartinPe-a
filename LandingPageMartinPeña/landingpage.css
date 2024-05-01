@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Jersey 25", sans-serif;;
+}
+body{
+    background-image: url(img/person-front-computer-working-html.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 905px;
+    width: 1820px;
+    /*Añadir foto de fondo sustituyendo el color*/
+}
+section{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(243, 193, 86);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+}
+header .logo:hover{
+    color: rgb(136, 82, 187);
+    background-color: #fff;
+    transition: 1s;
+}
+header .nav{
+    background-color: rgb(243, 193, 86);
+    position: relative;
+    display: flex;
+}
+header .nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+header .nav li a:hover{
+    border-bottom: 2px solid rgb(136, 82, 187);;
+    padding: 2px;
+}
+/*COntenido de la web*/
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 580px;
+    
+}
+.contenido .titulo{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+
+}
+.contenido .titulo h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+}
+.contenido .tituloBox h2 span{
+    background: rgb(136, 82, 187);
+    color: white;
+    padding: 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.contenido .titulo p{
+    font-size: 24px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.contenido .titulo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(136, 82, 187);;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.contenido .titulo a:hover{
+    color: white;
+    background-color: rgb(136, 82, 187);;
+    transition: 0.5s;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 665px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    align-items: center;
+    background-color: rgb(243, 193, 86);
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+.redes{
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    display: flex;
+    
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.redes li{
+    padding:10px;
+}
+
+
+
+
+
+
